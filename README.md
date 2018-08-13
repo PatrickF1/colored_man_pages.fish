@@ -31,9 +31,9 @@ Just invoke `man` as usual, but without changing the pager, to get colored outpu
 ```fish
 $ man less
 ```
-To execute vanilla `man` without the added colors, specify the path of the `man` binary. `which man` should output the path to the binary. For example, on OSX it is `/usr/bin/man`, so Mac users would execute
+To execute vanilla `man` without colored output, we can bypass the wrapper using `command`. For example
 ```fish
-$ /usr/bin/man less
+$ command man less
 ```
 
 # License
