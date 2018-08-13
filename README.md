@@ -9,7 +9,7 @@
 
 <br/>
 
-A wrapper around `man` that colorizes non-standard text to make reading man pages easier and more enjoyable.
+This plugin installs a fish function wrapper around `man` that colorizes non-standard text (underlined, bold, and standout) to make reading man pages easier and more enjoyable. This idea was first inspired by [Arch Linux wiki](https://wiki.archlinux.org/index.php/Color_output_in_console#Using_less). 
 
 ## Install
 

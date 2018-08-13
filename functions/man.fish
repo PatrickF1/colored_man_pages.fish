@@ -1,7 +1,5 @@
 #!/usr/bin/env fish
 
-# Idea from https://wiki.archlinux.org/index.php/Color_output_in_console#less
-
 # The reason we set these environment variables locally before each invocation of man rather
 # than keeping them in config.fish is because they will mess up the colors for other commands. See
 # https://unix.stackexchange.com/questions/87261/getting-unexpected-colorized-output-on-several-commands
