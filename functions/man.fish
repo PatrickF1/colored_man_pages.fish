@@ -1,8 +1,7 @@
 #!/usr/bin/env fish
 
-# The reason we set these environment variables locally before each invocation of man rather
-# than keeping them in config.fish is because they will mess up the colors for other commands. See
-# https://unix.stackexchange.com/questions/87261/getting-unexpected-colorized-output-on-several-commands
+# colors documentation can be found at
+# http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html#256-colors
 function man -d "Run man with added colors"
     set -l bold_ansi_code "\u001b[1m"
     set -l underline_ansi_code "\u001b[4m"
