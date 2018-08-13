@@ -1,6 +1,6 @@
 <img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
 
-#### Colored manpages
+#### Colored Man Pages
 > A plugin for [Oh My Fish].
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
@@ -9,17 +9,17 @@
 
 <br/>
 
-A wrapper around `man` that colorizes non-standard text to make reading manpages easier and more enjoyable.
+A wrapper around `man` that colorizes non-standard text to make reading man pages easier and more enjoyable.
 
 ## Install
 
 With [Oh My Fish]
 ```fish
-$ omf install https://github.com/patrickf3139/Colored-Manpages
+$ omf install https://github.com/patrickf3139/Colored-Man-Pages
 ```
 With [fisherman]
 ```fish
-$ fisher patrickf3139/Colored-Manpages
+$ fisher patrickf3139/Colored-Man-Pages
 ```
 
 ## Usage
