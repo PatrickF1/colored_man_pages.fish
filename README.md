@@ -9,7 +9,9 @@
 
 <br/>
 
-This plugin installs a fish function wrapper around `man` that colorizes non-standard text (underlined, bold, and standout) to make reading man pages easier and more enjoyable. This idea was first inspired by [Arch Linux wiki](https://wiki.archlinux.org/index.php/Color_output_in_console#Using_less). 
+This plugin installs a fish function wrapper around `man` that colorizes non-standard text (underlined, bold, and standout) to make browsing man pages easier and more enjoyable. This idea was first inspired by [Arch Linux wiki](https://wiki.archlinux.org/index.php/Color_output_in_console#Using_less). 
+
+<img alt="colored man page for less" src="./images/less-man-page.png">
 
 ## Install
 
@@ -23,7 +25,7 @@ $ fisher patrickf3139/Colored-Man-Pages
 ```
 
 ## Usage
-Just execute `man` as you usually would to get the colors. For example
+Just execute `man` as you usually would to get colored output. For example
 ```fish
 $ man less
 ```
