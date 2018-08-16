@@ -38,7 +38,7 @@ $ command man less
 
 # License
 
-[MIT][mit] © [Patrick Fong](github.com/patrickf139)
+[MIT][mit] © [Patrick](https://github.com/patrickf3139)
 
 [mit]: https://opensource.org/licenses/MIT
 [omf-link]: https://www.github.com/oh-my-fish/oh-my-fish
