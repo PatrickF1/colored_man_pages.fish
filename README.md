@@ -19,7 +19,7 @@ The colors are added by setting environment variables that control how `less`, `
 
 With [Oh My Fish]
 ```fish
-$ omf install https://github.com/patrickf3139/Colored-Man-Pages
+$ omf install colored-man-pages
 ```
 With [fisherman]
 ```fish
