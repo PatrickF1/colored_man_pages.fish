@@ -23,7 +23,7 @@ $ omf install colored-man-pages
 ```
 With [fisher]
 ```fish
-$ fisher patrickf3139/Colored-Man-Pages
+$ fisher add patrickf3139/Colored-Man-Pages
 ```
 
 ## Usage
