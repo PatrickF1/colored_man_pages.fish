@@ -2,7 +2,7 @@
 
 # colors documentation can be found at
 # http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html#256-colors
-function man -d "Run man with added colors"
+function man --wraps man -d "Run man with added colors"
     set -l bold_ansi_code "\u001b[1m"
     set -l underline_ansi_code "\u001b[4m"
     set -l reversed_ansi_code "\u001b[7m"
