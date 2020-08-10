@@ -1,6 +1,6 @@
 <img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
 
-#### Colored Man Pages
+#### colored_man_pages.fish
 > A plugin for the [fish-shell](https://fishshell.com).
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
@@ -9,7 +9,7 @@
 
 <br/>
 
-This plugin installs a fish function wrapper around `man` that colorizes styled text (specifically underlined, bold, and standout) to make browsing man pages easier and more enjoyable. 
+This plugin installs a fish function wrapper around `man` that colorizes styled text (specifically underlined, bold, and standout) to make browsing man pages easier and more enjoyable.
 
 The colors are added by setting environment variables that control how `less`, `man`'s default pager, processes styled text. Why use a wrapper to prepare environment variables when we could simply initialize environment variables on shell startup? Because the environment variables used contain escape sequences that will "overflow" into the output of other commands reading environment variables. See this [Stackoverflow question](https://unix.stackexchange.com/questions/87261/getting-unexpected-colorized-output-on-several-commands) for an explanation.
 
@@ -21,11 +21,11 @@ Credits: This idea was first inspired by [Arch Linux wiki](https://wiki.archlinu
 
 With [Oh My Fish]
 ```fish
-$ omf install colored-man-pages
+$ omf install https://github.com/patrickf3139/colored_man_pages.fish
 ```
 With [fisher]
 ```fish
-$ fisher add patrickf3139/Colored-Man-Pages
+$ fisher add patrickf3139/colored_man_pages.fish
 ```
 
 ## Usage
