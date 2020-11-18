@@ -21,11 +21,11 @@ Credits: This idea was first inspired by [Arch Linux wiki](https://wiki.archlinu
 
 With [Oh My Fish]
 ```fish
-$ omf install https://github.com/patrickf3139/colored_man_pages.fish
+$ omf install https://github.com/patrickf1/colored_man_pages.fish
 ```
 With [fisher]
 ```fish
-$ fisher add patrickf3139/colored_man_pages.fish
+$ fisher install patrickf1/colored_man_pages.fish
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ $ man git-log
 
 # License
 
-[MIT][mit] © [Patrick](https://github.com/patrickf3139)
+[MIT][mit] © [Patrick](https://github.com/patrickf1)
 
 [mit]: https://opensource.org/licenses/MIT
 [omf-link]: https://www.github.com/oh-my-fish/oh-my-fish
