@@ -37,11 +37,12 @@ To execute vanilla `man` without colored output, we can bypass the wrapper using
 ```fish
 $ command man less
 ```
-As for coloring the output of `git help`, unfortunately, there doesn't seem to be an easy way to add a hook to, or wrapper, around `git help`'s call to `less`. This is because `git` always executes in a bash shell ([source](https://git-scm.com/book/tr/v2/Git-Internals-Environment-Variables)) and so completely bypasses fish's autoloaded functions. As an alternative, we can execute `man` directly on `git`'s' man pages like so:
+
+To colorize the output of utilities that rely on less, use the `cless` wrapper to configure less before executing the utility.
+For example
 ```fish
-$ man git-merge
-$ man git-status
-$ man git-log
+$ cless git help merge
+$ cless git help log
 ```
 
 # License
