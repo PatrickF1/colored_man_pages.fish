@@ -1,7 +1,8 @@
 function man --wraps man -d "Run man with added colors"
     set --local --export MANPATH $MANPATH
 
-    # set MANPATH if not already set to ??? TODO
+    # special case for NetBSD and FreeBSD: set MANPATH if not already set
+    # see https://github.com/fish-shell/fish-shell/blob/555af37616893160ad1afb208a957d6a01a7a315/share/functions/man.fish#L15
     if test -z "$MANPATH" && set path (command man -p 2>/dev/null)
         set MANPATH (string replace --regex '[^/]+$' '' $path)
     end
