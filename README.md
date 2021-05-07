@@ -16,12 +16,7 @@ The colors are added by setting environment variables that control how `less`, `
 
 Credits: This idea was first inspired by [Arch Linux wiki](https://wiki.archlinux.org/index.php/Color_output_in_console#Using_less).
 
-Note: [decors/fish-colored-man](https://github.com/decors/fish-colored-man) is a very similar plugin. What `colored_man_pages.fish` has but `fish-colored-man` does not:
-
-- adds fish's man pages to MANPATH so users are able to read man pages for fish builtins
-- includes a wrapper to also colorize the output of utilities that rely on less, such as `git help`
-
-Conversely, `fish-colored-man` allows configuring colors but not `colored_man_pages.fish`.
+Note: [decors/fish-colored-man](https://github.com/decors/fish-colored-man) is a very similar plugin. `colored_man_pages.fish` includes a wrapper to also colorize the output of utilities that rely on less, such as `git help`. Conversely, `fish-colored-man` allows configuring colors.
 
 <img alt="colored man page for less" src="./images/less-man-page.png">
 
