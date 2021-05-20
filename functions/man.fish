@@ -1,5 +1,5 @@
 function man --wraps man -d "Run man with added colors"
-    set --local --export MANPATH $MANPATH
+    set --local --export MANPATH $MANPATH ''
 
     # special case for NetBSD and FreeBSD: set MANPATH if not already set
     # see https://github.com/fish-shell/fish-shell/blob/555af37616893160ad1afb208a957d6a01a7a315/share/functions/man.fish#L15
