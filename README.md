@@ -22,12 +22,6 @@ Note: [decors/fish-colored-man](https://github.com/decors/fish-colored-man) is a
 
 ## Install
 
-With [Oh My Fish]
-
-```fish
-$ omf install https://github.com/patrickf1/colored_man_pages.fish
-```
-
 With [fisher]
 
 ```fish
@@ -63,5 +57,4 @@ $ cless git help log
 [mit]: https://opensource.org/licenses/MIT
 [omf-link]: https://www.github.com/oh-my-fish/oh-my-fish
 [fisher]: https://github.com/jorgebucaran/fisher
-[oh my fish]: https://github.com/oh-my-fish/oh-my-fish
 [license-badge]: https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
